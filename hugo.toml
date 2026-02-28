@@ -1,0 +1,90 @@
+baseURL = 'https://omerhub.com/'
+defaultContentLanguage = 'tr'
+theme = 'blowfish'
+
+[languages]
+  [languages.tr]
+    languageCode = 'tr'
+    languageName = "TR"
+    title = 'Ömer'
+    weight = 1
+    
+    [languages.tr.author]
+      name = "Ömer"
+      image = "logo.svg"
+      headline = "karşılama yazısı"
+      links = [
+        { github = "https://github.com/dogruyolomer" },
+        { linkedin = "https://linkedin.com/" },
+        { email = "mailto:ornek@mail.com" }
+      ]
+
+    [[languages.tr.menu.main]]
+      name = "Hakkımda"
+      pageRef = "/about"
+      weight = 10
+    [[languages.tr.menu.main]]
+      name = "Projeler"
+      pageRef = "/projects"
+      weight = 20
+    [[languages.tr.menu.main]]
+      name = "Blog"
+      pageRef = "/posts"
+      weight = 30
+    [[languages.tr.menu.main]]
+      name = "İletişim"
+      pageRef = "/contact"
+      weight = 40
+
+  [languages.en]
+    languageCode = 'en'
+    languageName = "EN"
+    title = 'Omer'
+    weight = 2
+    
+    [languages.en.author]
+      name = "Omer"
+      image = "logo.svg"
+      headline = "welcome text"
+      links = [
+        { github = "https://github.com/dogruyolomer" }
+      ]
+
+    [[languages.en.menu.main]]
+      name = "About me"
+      pageRef = "/about"
+      weight = 10
+    [[languages.en.menu.main]]
+      name = "Projects"
+      pageRef = "/projects"
+      weight = 20
+    [[languages.en.menu.main]]
+      name = "Blog"
+      pageRef = "/posts"
+      weight = 30
+    [[languages.en.menu.main]]
+      name = "Contact me"
+      pageRef = "/contact"
+      weight = 40
+
+[params]
+  defaultAppearance = "dark"
+  showSearch = true
+  customCSS = ["css/custom.css"]
+  mainSections = ["posts", "projects"]
+
+  [params.homepage]
+    layout = "profile"
+    showRecent = true
+
+  [params.article]
+    showReadingTime = false
+    showWordCount = false
+    showViews = false
+    showLikes = false
+    showAuthor = false
+    showDate = true
+
+  [params.list]
+    showCards = false
+    groupByYear = false

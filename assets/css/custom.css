@@ -1,0 +1,13 @@
+/* Blog listesindeki Tarih ve Başlığı masaüstünde/tablette yan yana hizalar */
+@media (min-width: 768px) {
+    .article-list article div {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: baseline !important;
+        gap: 2rem !important;
+    }
+    .article-list article div .text-sm {
+        min-width: 120px !important;
+        margin-bottom: 0 !important;
+    }
+}
