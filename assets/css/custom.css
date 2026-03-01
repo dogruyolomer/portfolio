@@ -6,3 +6,10 @@
 body[class*="home"] header img {
     display: none !important;
 }
+
+/* Sol üstteki logonun boyutunu arama ikonuyla eşitler (yaklaşık 24px) */
+header img, .logo img {
+    max-height: 1.5rem !important;
+    width: auto !important;
+    margin-right: 5px !important;
+}
