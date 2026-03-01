@@ -1,5 +1,3 @@
 ---
-title: "Projeler"
-cascade:
-  showCards: true
+title: "Projelerim"
 ---

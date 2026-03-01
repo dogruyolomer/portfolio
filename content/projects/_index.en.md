@@ -1,5 +1,3 @@
 ---
-title: "Projects"
-cascade:
-  showCards: true
+title: "My Projects"
 ---

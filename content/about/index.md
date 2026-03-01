@@ -1,6 +1,8 @@
 ---
 title: "Hakkımda"
+showDate: false
+showPagination: false
+showReadingTime: false
+showWordCount: false
 ---
-Merhaba ben Ömer. Mekatronik mühendisliği öğrencisiyim. 
-
-Burayı hem projelerimi sergilemek hem de öğrendiklerimi paylaşmak için dijital arka bahçem olarak kullanıyorum.
+Merhaba, ben Ömer Lütfi. Mekatronik ve yazılım dünyasına olan tutkumla... (Burayı daha sonra detaylandıracağız)

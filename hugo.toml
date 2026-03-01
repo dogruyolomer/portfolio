@@ -5,18 +5,13 @@ theme = 'blowfish'
 [languages]
   [languages.tr]
     languageCode = 'tr'
-    languageName = "TR"
-    title = 'Ömer'
+    languageName = "🇹🇷 TR"
+    title = 'ömer lütfi'
     weight = 1
     [languages.tr.author]
-      name = "Ömer"
+      name = "Ömer Lütfi"
       image = "logo.svg"
-      headline = "karşılama yazısı"
-      links = [
-        { github = "https://github.com/dogruyolomer" },
-        { linkedin = "https://linkedin.com/" },
-        { email = "mailto:ornek@mail.com" }
-      ]
+      headline = "Mekatronik & Yazılım Serüvenim"
     [[languages.tr.menu.main]]
       name = "Hakkımda"
       pageRef = "/about"
@@ -36,16 +31,13 @@ theme = 'blowfish'
 
   [languages.en]
     languageCode = 'en'
-    languageName = "EN"
-    title = 'Omer'
+    languageName = "🇬🇧 EN"
+    title = 'omer lutfi'
     weight = 2
     [languages.en.author]
-      name = "Omer"
+      name = "Omer Lutfi"
       image = "logo.svg"
-      headline = "welcome text"
-      links = [
-        { github = "https://github.com/dogruyolomer" }
-      ]
+      headline = "Mechatronics & Software Journey"
     [[languages.en.menu.main]]
       name = "About me"
       pageRef = "/about"
