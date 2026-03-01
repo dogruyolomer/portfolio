@@ -8,7 +8,6 @@ theme = 'blowfish'
     languageName = "🇹🇷 TR"
     title = 'Ömer Lütfi'
     weight = 1
-    logo = "home.png"
     [languages.tr.author]
       name = "Ömer Lütfi"
       image = "logo.svg"
@@ -22,7 +21,7 @@ theme = 'blowfish'
       pageRef = "/projects"
       weight = 20
     [[languages.tr.menu.main]]
-      name = "Yazılarım"
+      name = "Yazılar"
       pageRef = "/posts"
       weight = 30
     [[languages.tr.menu.main]]
@@ -35,7 +34,6 @@ theme = 'blowfish'
     languageName = "🇬🇧 EN"
     title = 'Omer Lutfi'
     weight = 2
-    logo = "home.png"
     [languages.en.author]
       name = "Omer Lutfi"
       image = "logo.svg"
@@ -49,7 +47,7 @@ theme = 'blowfish'
       pageRef = "/projects"
       weight = 20
     [[languages.en.menu.main]]
-      name = "My Articles"
+      name = "Articles"
       pageRef = "/posts"
       weight = 30
     [[languages.en.menu.main]]
@@ -62,6 +60,7 @@ theme = 'blowfish'
   showSearch = true
   customCSS = ["css/custom.css"]
   mainSections = ["posts", "projects"]
+  logo = "home.png"
   [params.homepage]
     layout = "profile"
     showRecent = true
