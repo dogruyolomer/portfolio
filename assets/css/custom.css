@@ -1,1 +1,6 @@
-/* Logo yönetimi Javascript'e devredildi */
+/* Ana sayfadaki ortada duran büyük ismi gizler */
+.page-home h1,
+.page-home .text-4xl.font-extrabold,
+.page-home .mt-8.text-4xl {
+    display: none !important;
+}
