@@ -60,7 +60,6 @@ theme = 'blowfish'
   showSearch = true
   customCSS = ["css/custom.css"]
   mainSections = ["posts", "projects"]
-  logo = "home.png"
   [params.homepage]
     layout = "profile"
     showRecent = true
