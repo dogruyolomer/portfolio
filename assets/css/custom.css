@@ -1,15 +1,1 @@
-/* Ana sayfadaki büyük "Ömer Lütfi" yazısını gizleyen eski kodu kaldırdık. Artık hep görünecek! */
-
-/* Sol üstteki Ev(Home) logosunu sadece ana sayfadayken gizler */
-.page-home header img,
-.page-home header .logo,
-body[class*="home"] header img {
-    display: none !important;
-}
-
-/* Sol üstteki logonun boyutunu arama ikonuyla eşitler (yaklaşık 24px) */
-header img, .logo img {
-    max-height: 1.5rem !important;
-    width: auto !important;
-    margin-right: 5px !important;
-}
+/* Logo görünümü artık JS ile yönetiliyor */

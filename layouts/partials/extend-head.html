@@ -1,33 +1,23 @@
-{{ $homeURL := .Site.Home.RelPermalink }}
-<style>
-/* 1. Orijinal "Ömer Lütfi" yazısını ve varsa logoyu görünmez yap */
-header a[href="{{ $homeURL }}"] {
-    font-size: 0 !important; 
-    display: inline-flex;
-    align-items: center;
-}
-header a[href="{{ $homeURL }}"] img {
-    display: none !important;
-}
-
-/* 2. Yerine temayla (Koyu/Açık) uyumlu yeni yazıyı ekle */
-header a[href="{{ $homeURL }}"]::after {
-    {{ if eq .Language.Lang "tr" }}
-    content: "Ana Sayfa";
-    {{ else }}
-    content: "Home";
-    {{ end }}
-    font-size: 1.25rem !important; /* Blowfish varsayılan başlık boyutu */
-    font-weight: 700 !important; /* Kalın yazı */
-    visibility: visible;
-}
-</style>
-
-{{ if .IsHome }}
-<style>
-/* 3. EN ÖNEMLİ KISIM: Eğer Ana Sayfadaysak, sol üstteki bu butonu tamamen yok et */
-header a[href="{{ $homeURL }}"] {
-    display: none !important;
-}
-</style>
-{{ end }}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    // URL'den hangi dilde ve nerede olduğumuzu anla
+    var path = window.location.pathname;
+    var isEn = path.startsWith('/en');
+    var isHome = path === '/' || path === '/en' || path === '/en/';
+    
+    // Header'daki ana linki bul
+    var logo = document.querySelector('header a[href="/"], header a[href="/en/"]');
+    
+    if (logo) {
+        if (isHome) {
+            // Ana sayfadaysak logoyu/metni TAMAMEN YOK ET
+            logo.style.display = 'none';
+        } else {
+            // Alt sayfalardaysak metni "Ana Sayfa" yap
+            logo.innerHTML = isEn ? 'Home' : 'Ana Sayfa';
+            logo.style.fontSize = '1.25rem';
+            logo.style.fontWeight = 'bold';
+        }
+    }
+});
+</script>

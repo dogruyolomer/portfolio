@@ -2,6 +2,11 @@ baseURL = 'https://omerhub.com/'
 defaultContentLanguage = 'tr'
 theme = 'blowfish'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [languages]
   [languages.tr]
     languageCode = 'tr'
