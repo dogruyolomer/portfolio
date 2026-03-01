@@ -5,4 +5,4 @@ showPagination: false
 showReadingTime: false
 showWordCount: false
 ---
-Hello, I'm Omer Lutfi. With my passion for mechatronics and software... (We will detail this later)
+Hello, I'm Omer Lutfi. With my passion for mechatronics and software... (I will detail this later)

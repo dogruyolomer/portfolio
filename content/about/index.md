@@ -5,4 +5,4 @@ showPagination: false
 showReadingTime: false
 showWordCount: false
 ---
-Merhaba, ben Ömer Lütfi. Mekatronik ve yazılım dünyasına olan tutkumla... (Burayı daha sonra detaylandıracağız)
+Merhaba, ben Ömer Lütfi. Mekatronik ve yazılım dünyasına olan tutkumla... (güncellenecek)
