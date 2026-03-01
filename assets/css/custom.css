@@ -1,4 +1,8 @@
-/* Ana sayfadaki büyük isim başlığını gizler */
-.mt-8.text-4xl.font-extrabold {
+/* Ana sayfadaki büyük "Ömer Lütfi" yazısını gizleyen eski kodu kaldırdık. Artık hep görünecek! */
+
+/* Sol üstteki Ev(Home) logosunu sadece ana sayfadayken gizler */
+.page-home header img,
+.page-home header .logo,
+body[class*="home"] header img {
     display: none !important;
 }
