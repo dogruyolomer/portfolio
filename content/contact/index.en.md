@@ -9,6 +9,6 @@ If you want to learn more about me or talk about my projects/articles, you can u
 
 <br>
 
-{{< icon "envelope" >}} &nbsp; [dogruyolomer01@gmail.com](mailto:dogruyolomer01@gmail.com)  
-{{< icon "github" >}} &nbsp; [My GitHub](https://github.com/dogruyolomer)  
-{{< icon "linkedin" >}} &nbsp; [My LinkedIn](https://www.linkedin.com/in/dogruyolomer/)
+{{< icon "envelope" >}} &nbsp; [iletisim@omerhub.com ](mailto:iletisim@omerhub.com)  
+{{< icon "github" >}} &nbsp; [GitHub Profilim](https://github.com/dogruyolomer)  
+{{< icon "linkedin" >}} &nbsp; [LinkedIn Profilim](https://www.linkedin.com/in/dogruyolomer/)

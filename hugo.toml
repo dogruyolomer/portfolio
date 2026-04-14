@@ -10,7 +10,7 @@ theme = 'blowfish'
 [languages]
   [languages.tr]
     languageCode = 'tr'
-    languageName = "🇹🇷 TR"
+    languageName = "🇹🇷"
     title = 'Ömer Lütfi'
     weight = 1
     [languages.tr.author]
@@ -36,7 +36,7 @@ theme = 'blowfish'
 
   [languages.en]
     languageCode = 'en'
-    languageName = "🇬🇧 EN"
+    languageName = "🇬🇧"
     title = 'Omer Lutfi'
     weight = 2
     [languages.en.author]
@@ -61,7 +61,7 @@ theme = 'blowfish'
       weight = 40
 
 [params]
-  defaultAppearance = "dark"
+  defaultAppearance = "system"
   showSearch = true
   customCSS = ["css/custom.css"]
   mainSections = ["posts", "projects"]

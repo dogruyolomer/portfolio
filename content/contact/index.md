@@ -9,6 +9,6 @@ Hakkımda daha fazlasını öğrenmek veya projelerim/yazılarım hakkında konu
 
 <br>
 
-{{< icon "envelope" >}} &nbsp; [dogruyolomer01@gmail.com](mailto:dogruyolomer01@gmail.com)  
+{{< icon "envelope" >}} &nbsp; [iletisim@omerhub.com ](mailto:iletisim@omerhub.com)  
 {{< icon "github" >}} &nbsp; [GitHub Profilim](https://github.com/dogruyolomer)  
 {{< icon "linkedin" >}} &nbsp; [LinkedIn Profilim](https://www.linkedin.com/in/dogruyolomer/)
