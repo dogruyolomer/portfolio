@@ -1,7 +1,6 @@
 baseURL = 'https://omerhub.com/'
 defaultContentLanguage = 'tr'
 theme = 'blowfish'
-enableEmoji = true 
 
 [markup]
   [markup.goldmark]
@@ -11,11 +10,9 @@ enableEmoji = true
 [languages]
   [languages.tr]
     languageCode = 'tr'
-    languageName = "Türkçe"
+    languageName = "TR"
     weight = 1
-    [languages.tr.params]
-      displayName = "🇹🇷"
-      isoCode = "tr"
+    title = "Ömer Lütfi"
     [languages.tr.author]
       name = "Ömer Lütfi"
       image = "logo.svg"
@@ -39,11 +36,9 @@ enableEmoji = true
 
   [languages.en]
     languageCode = 'en'
-    languageName = "English"
+    languageName = "EN"
     weight = 2
-    [languages.en.params]
-      displayName = "🇬🇧"
-      isoCode = "en"
+    title = "Omer Lutfi"
     [languages.en.author]
       name = "Omer Lutfi"
       image = "logo.svg"
